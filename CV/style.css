@@ -1,0 +1,113 @@
+/* Généralités de la page. */
+
+/* Polices de caractères 1 */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot');
+    src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: url("green_small_y_background.jpg") fixed repeat-y, url("green_small_y_background2.jpg") top right repeat-y; */
+    background-color: rgba(128, 128, 128, 0.171);
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0;
+}
+
+/* Section liens */
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    font-weight: bold;
+    color: #cfa900;
+}
+
+a:visited, a:hover
+{
+    font-weight: bold;
+    color: #cfa9005d;
+}
+
+a:focus
+{
+    background-color: red;
+}
+
+/* Fin section liens */
+
+
+.main_contenant
+{
+    background-color: rgba(255, 255, 255,0.85);
+    padding: 30px;
+}
+
+h1, h2
+{
+    background-color: gray;
+    font-size: 2em;
+    padding-left: 15px;
+    border: 6px gray outset;
+    border-radius: 30px / 60px;
+}
+
+mark
+{
+    background-color: yellow;
+    color: red;
+}
+
+
+/* Section compétences */
+.intitule_poste
+{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: underline;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.356);
+    max-width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nom_entreprise
+{
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.image_flottante
+{
+    float: left;
+    max-width: 100px;
+    height: auto;
+}
+
+.stop_float
+{
+    clear: both;
+}
+
+p:hover
+{
+    font-weight: bold;
+}
+
+p:focus
+{
+    background-color: green;
+}
